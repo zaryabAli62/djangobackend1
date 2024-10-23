@@ -139,7 +139,9 @@ CORS_ALLOW_HEADERS = [
     'content-type',
     'x-requested-with',
     'access-control-allow-origin',
+    'x-xsrf-token',  # Add this line
 ]
+
 
 
 # Static files (CSS, JavaScript, Images)
